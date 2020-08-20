@@ -1,7 +1,136 @@
 .jumbotron {
-    background-image: url(./Assets/leaf.jpg);
+    background-image: url(./Assets/jumbotron2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    /* width: auto;
+    height: 100%; */
+}
+
+html {
+    scroll-behavior: smooth;
+    text-shadow: -1px -1px 0 #0074b8, 1px -1px 0 #0074b8, -1px 1px 0 #0074b8, 1px 1px 0 #0074b8;
+}
+
+body {
+    text-align: center;
+    color: white;
+    font-family: 'Yellowtail', cursive;
+    background-image: url(./Assets/libertynight3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.h1 {
+    font-size: 60px;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar-toggler {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navbar-brand {
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.nav-link {
+    color: #e7e7e7;
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.circle {
+    max-height: 400px;
+}
+
+.circleregistry {
+    max-height: 200px;
+}
+
+.circleregistry3 {
+    max-height: 300px;
+}
+
+#countdown {
+    font-size: 30px;
+}
+
+.col-sm-12 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.col-sm-4 {
+    font-size: 25px;
+    text-align: center;
+}
+
+#myBtn {
+    font-family: initial;
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #0074b8;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding-top: 10px;
+    padding-left: 18px;
+    padding-bottom: 10px;
+    padding-right: 18px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    font-style: normal;
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
+
+.foot-card-footer {
+    font-size: 20px;
+    font: white;
+}
+
+.carousel {
+    max-width: 100%;
+    max-height: 100%;
 }
